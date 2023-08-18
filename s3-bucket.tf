@@ -3,7 +3,6 @@ module "s3_bucket" {
 
   bucket = "isv-lab-my-s3-bucket"
   acl    = "private"
-  bucket_prefix = "sushant"
 
   versioning = {
     enabled = true
